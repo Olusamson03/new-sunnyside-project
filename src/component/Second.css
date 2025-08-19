@@ -1,0 +1,121 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+section>div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+section>div>div{
+  height: 70vh;
+}
+section>div>div:first-child{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-left: 50px;
+
+h3{
+  font-size: 2rem;
+  width: 50%;
+  padding-bottom: 40px;
+  padding-right: 160px;
+}
+p{
+  padding: 50px;
+  font-size: larger;
+}
+}
+section>div>div:nth-child(2){
+  background-image: url(../assets/image-transform.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.plastic{
+  text-decoration-color:  hsl(51, 100%, 49%);
+  text-decoration-thickness: 5px;
+}
+section>div>div:nth-child(3){
+  background-image: url(../assets/image-stand-out.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section>div>div:nth-child(4){
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-left: 50px;
+
+h3{
+  font-size: 2rem;
+  width: 70%;
+  padding-bottom: 40px;
+  padding-right: 50px;
+}
+p{
+  padding: 50px;
+  font-size: larger;
+}
+}
+.amend{
+  text-decoration-color:  hsl(7, 99%, 70%);
+  text-decoration-thickness: 5px;
+}
+section>div>div:nth-child(5){
+  background-image: url(../assets/image-graphic-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  h3{
+    padding: 10px;
+  }
+  p{
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+  }
+}
+section>div>div:nth-child(6){
+  background-image: url(../assets/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  h3{
+    padding: 10px;
+  }
+  p{
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px){
+  section>div{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  section>div>div{
+    height: 60vh;
+  }
+  section>div>div:first-child{
+    padding-left: 20px;
+    h3{
+      width: 80%;
+      padding-right: 20px;
+    }
+  }
+}

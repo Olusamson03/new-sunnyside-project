@@ -1,0 +1,137 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+@font-face{
+  font-family: barlow;
+  src: url(./font/Barlow-Regular.ttf);
+}
+@font-face{
+  font-family: fraunces;
+  src: url(./font/Fraunces_72pt-Regular.ttf);
+}
+header{
+  height: 90vh;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/image-header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+header>nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 40px;
+  padding-block: 50px;
+
+}
+header>nav>ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style-type: none;
+}
+h1{
+  text-align: center;
+  color: white;
+
+}
+.past{
+  padding-left: 48%;
+  margin-bottom: 50%;
+}
+.marker{
+  padding: 10px 30px;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+}
+.crown{
+  color: white;
+  text-decoration-color: rgba(0, 0, 255, 0.218);
+  text-decoration-thickness: 2px;
+}
+.crown:hover{
+  color: yellow;
+}
+.marker:hover{
+  color: yellow;
+}
+.one{
+  background-image: url(./assets/image-gallery-milkbottles.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one{
+  background-image: url(./assets/image-gallery-milkbottles.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.two{
+  background-image: url(./assets/image-gallery-orange.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.three{
+  background-image: url(./assets/image-gallery-cone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four{
+  background-image: url(./assets/image-gallery-sugarcubes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media(width <= 500px){
+  .top{
+    height: 100vh !important;
+    width: 100% !important;
+  }
+ .new{
+background-image: url(./assets/image-header\ copy.jpg) !important;
+background-position: center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+
+ }
+ .nana{
+  margin-bottom: 50px !important;
+  text-align: center !important;
+  margin-left: 50px !important;
+ }
+ .art{
+  height: 150vh !important;
+  align-items: center !important;
+ }
+ .testimonial{
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-top: 40px !important;
+  height: 100vh !important;
+  margin-left: 80px !important;
+  width: 60% !important;
+
+ }
+.jennie{
+  padding-left: 0 !important;
+  padding-top: 20px !important;
+}
+.pitt{
+  grid-template-columns: repeat(2,1fr) !important;
+}
+.Blast{
+  gap: 80px !important;
+}
+.last{
+  gap: 40px !important;
+  padding-top: 50px !important;
+}
+}
